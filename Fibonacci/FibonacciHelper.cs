@@ -45,6 +45,11 @@ namespace Fibonacci
             memo.Add(1, 1);
         }
 
+        /// <summary>
+        /// Iterative solution to find fibonacci sequence
+        /// </summary>
+        /// <param name="n"></param>
+        /// <returns></returns>
         public int fibonacci3(int n)
         {
             int last = 0, next = 1;  //fibonacci3(0) and fibonacci(1)
